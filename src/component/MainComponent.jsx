@@ -12,6 +12,7 @@ class MainComponent extends Component {
 
 	componentDidMount() {
 		this.getApi();
+		console.log("test");
 	}
 
 	getApi = () => {
